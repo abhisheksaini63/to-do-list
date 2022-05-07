@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Permanent Marker', cursive;; */
+  /* font-family: 'Montserrat Alternates', sans-serif; */
+  font-family: 'Inter', sans-serif;
+}
+
+.main_div{
+  width: 100%;
+  min-height: 100vh;
+  background: url('https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.container{
+  width: 300px;
+  min-height: 80vh;
+  border: 1px solid;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 5px 5px 25px 15px rgb(0, 0, 0,.7);
+}
+/* h1{
+  color: #fff;
+  text-align: center;
+  background-color: #9A12B3;
+} */
+input{
+  margin: 0px 10px;
+  width: 200px;
+  height: 35px;
+  padding: 10px;
+  font-size: 1rem;
+  outline: none;
+  border:none;
+  border-bottom: 3px solid #9A12B3;
+}
+.addBtn {
+  width: 40px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #9A12B3;
+  outline: none;
+  border:none;
+}
+.addBtn:hover{
+  background-color: #2ecc71;
+}
+.newBtn {
+  width: 40px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #9A12B3;
+  outline: none;
+  border:none;
+}
+.newBtn:hover{
+  background-color: #2ecc71;
+}
+.delBtn{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: .7rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #9A12B3;
+  outline: none;
+  border:none;
+}
+.delBtn:hover{
+  background-color: rgb(255, 51, 146);
+}
+
+.delItmes{
+  margin:20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+ol{
+  list-style: none;
+}
+
+
+AddCircleIcon{
+  width: 40px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #9A12B3;
+  outline: none;
+  border:none;
+}
+
+.newH{
+  text-align: center;
+  text-shadow: 3px 3px 4px rgb(0, 0, 0,0.5);
+}
